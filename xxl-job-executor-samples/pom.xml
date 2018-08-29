@@ -12,7 +12,8 @@
         <module>xxl-job-executor-sample-springboot</module>
         <module>xxl-job-executor-sample-jfinal</module>
         <module>xxl-job-executor-sample-nutz</module>
-    </modules>
+		<module>xxl-job-executor-sample-yooeee-job</module>
+	</modules>
 	<properties>
 		<javax.servlet-api.version>3.0.1</javax.servlet-api.version>
 		<jsp-api.version>2.2</jsp-api.version>
