@@ -8,7 +8,7 @@ spring.profiles.active: common
 xxl.job.db:
    driverClass: com.mysql.jdbc.Driver
    url: jdbc:mysql://localhost:3306/xxl-job?useUnicode=true&characterEncoding=UTF-8&useSSL=false
-   user: root
+   user: xxljobuser  #建议对xxl-job使用单独的用户管理，xxljobuser需要select ,update,insert,delete权限。因为一般情况下生产用户是不能有delete删除操作权限的
    password: 123456
 
 ### xxl-job email
